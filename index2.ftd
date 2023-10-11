@@ -1,0 +1,18 @@
+-- integer $x: 10 
+
+-- integer y: *$x ;; * used for cloning value
+
+-- ftd.integer: $x
+
+-- ftd.integer: $y
+-- ftd.text: I change x
+$on-click$: $ftd.increment($a = $x)
+
+-- string $z: hello world
+
+-- ftd.text: $z
+
+;;-- integer x: 10           // this is immutable variable ,without $ sign
+
+;;-- ftd.integer: x
+;;$on-click$: $ftd.increment($a = $x)  // its value cannot be changed, error

@@ -10,7 +10,7 @@ colors: $winter-cs.main
 A reader lives a thousand lives before he dies . . . The man who never reads lives only one.”
                                                                                                                                         
                                                             
--- ds.h1: Heading  ;;heading under page heading like...about
+-- ds.h1: Heading  ;;heading
  
  This page is created with the help of 4 main packages in fastn
  - fifthtry.github.io/doc-site
@@ -22,8 +22,8 @@ A reader lives a thousand lives before he dies . . . The man who never reads liv
 
   this is the result of expander package( cmt=e.box:hello world)  ;;e pkg box element
 
--- a.info: admonitions note ;;admotions package
+-- a.info: admonition note ;;admotions package
 
-This info is created by admotions package using the element info(cmt= a.info:<info heading>)
+This info is created by admotions package using the element info(cmt = a.info:<info heading>)
 
 -- end:ds.page 
