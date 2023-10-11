@@ -1,40 +1,29 @@
--- ds.page: Welcome to doc-site
+-- import: fifthtry.github.io/doc-site as ds ;;this package creates a page with logo, page heading and body,darkmode icon
+-- import: gargajit.github.io/expander as e  ;;creates a box element
+-- import: fifthtry.github.io/admonitions as a ;; creates info element
+-- import: fastn-community.github.io/winter-cs 
+-- import: fastn1/assets     ;; to fetch from folder fastn1                   
+-- ds.page: Doc Site Package  ;; page heading
+site-logo: $assets.files.images.logo1.jpg     ;; for changing logo in ds
+colors: $winter-cs.main
 
+A reader lives a thousand lives before he dies . . . The man who never reads lives only one.”
+                                                                                                                                        
+                                                            
+-- ds.h1: Heading  ;;heading under page heading like...about
+ 
+ This page is created with the help of 4 main packages in fastn
+ - fifthtry.github.io/doc-site
+ - fifthtry.github.io/admonitions
+ - fastn-community.github.io/winter-cs
+ - gargajit.github.io/expander
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- e.box: Expander!  ;;expander package
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+  this is the result of expander package( cmt=e.box:hello world)  ;;e pkg box element
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
+-- a.info: admonitions note ;;admotions package
 
--- ds.h3: 🚀 Fast Track 
+This info is created by admotions package using the element info(cmt= a.info:<info heading>)
 
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
-
--- ds.h3: 🎯 Used by?
-
-Our all documentation sites uses this `doc-site` theme.
-
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
-
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
--- end: ds.page
+-- end:ds.page 
