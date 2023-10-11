@@ -1,10 +1,10 @@
--- import: fifthtry.github.io/doc-site as ds ;;this package creates a page with logo, page heading and body,darkmode icon
+-- import: fastn-community.github.io/doc-site as ds ;;this package creates a page with logo, page heading and body,darkmode icon
 -- import: gargajit.github.io/expander as e  ;;creates a box element
 -- import: fifthtry.github.io/admonitions as a ;; creates info element
 -- import: fastn-community.github.io/winter-cs 
--- import: fastn1/assets     ;; to fetch from folder fastn1                   
+                   
 -- ds.page: Doc Site Package  ;; page heading
-site-logo: $assets.files.images.logo1.jpg     ;; for changing logo in ds
+site-logo: $assets.files.assets.logo1.jpg     ;; for changing logo in ds
 colors: $winter-cs.main
 
 A reader lives a thousand lives before he dies . . . The man who never reads lives only one.”
