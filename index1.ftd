@@ -1,0 +1,101 @@
+-- ftd.text: Concept 1: Text
+padding.px: 20
+
+-- ftd.text: Hello world!...
+padding.px: 50
+border-width.px: 10
+background.solid: white
+role: $inherited.types.heading-hero
+;;width: fill-container
+;;height: fill-container
+
+-- ftd.text: Concept 2: Rows and column
+padding.px: 20
+
+-- ftd.column:
+padding.px: 50
+background.solid: #eee 
+;;width: fill-container
+;;height: fill-container
+align-content: center
+;;border-width.px: 3
+
+-- ftd.column:
+border-width.px: 3
+;;spacing.fixed.px: 10
+width: fill-container
+
+-- ftd.row:
+;;spacing.fixed.px: 15
+width: fill-container
+border-bottom-width.px: 3
+
+
+-- ftd.column:
+;;background.solid: red
+border-right-width.px: 3
+padding.px: 15
+width.fixed.percent: 33.33
+
+-- ftd.text: colheading1
+
+-- end: ftd.column
+
+-- ftd.column:
+border-right-width.px: 3
+padding.px: 15
+width.fixed.percent: 33.33
+
+-- ftd.text: colheading2
+
+-- end: ftd.column
+
+-- ftd.column:
+padding.px: 15
+width.fixed.percent: 33.33
+
+-- ftd.text: colheading3
+
+-- end: ftd.column
+
+
+
+-- end: ftd.row
+
+-- ftd.row:
+;;spacing.fixed.px: 50
+width: fill-container
+
+
+-- ftd.column:
+border-right-width.px: 3
+padding.px: 15
+width.fixed.percent: 33.33
+
+-- ftd.text: value1
+
+-- end: ftd.column
+
+-- ftd.column:
+border-right-width.px: 3
+padding.px: 15
+width.fixed.percent: 33.33
+
+-- ftd.text: value2
+
+-- end: ftd.column
+
+-- ftd.column:
+padding.px: 15
+width.fixed.percent: 33.33
+
+-- ftd.text: value3
+
+-- end: ftd.column
+
+
+-- end: ftd.row
+
+-- end: ftd.column
+
+-- end: ftd.column
